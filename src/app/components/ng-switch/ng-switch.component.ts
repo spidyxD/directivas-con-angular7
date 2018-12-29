@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class NgSwitchComponent implements OnInit {
-  alert:string = "warning"; 
+  // tslint:disable-next-line:no-inferrable-types
+  alert: string = 'warning';
   constructor() { }
 
   ngOnInit() {
